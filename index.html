@@ -276,9 +276,6 @@
             const bearing = calculateBearing(originLatLng, destinationLatLng);
 
             // Create a custom marker with an arrow icon that can be rotated.
-            // This basic arrow is a built-in Google Maps symbol. For a custom SVG,
-            // you'd need to define your own SVG path and potentially handle rotation
-            // in a more advanced way.
             directionArrow = new google.maps.Marker({
                 position: originLatLng, // Arrow originates from user's location
                 map: map,
